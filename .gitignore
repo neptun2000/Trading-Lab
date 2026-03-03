@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Run data (local only — contains portfolio state and LLM outputs)
+user_side/runs/
+
+# Streamlit cache
+.streamlit/
+
+# OS
+.DS_Store
+
+# Pytest
+.pytest_cache/

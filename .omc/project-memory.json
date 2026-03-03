@@ -1,0 +1,267 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1772460750168,
+  "projectRoot": "/Users/mnaumov/Projects/Trading-Lab",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "pyproject.toml",
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": "pytest",
+    "lintCommand": "ruff check",
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 7,
+      "lastAccessed": 1772460750153,
+      "keyFiles": [
+        "README.md",
+        "contributing.md",
+        "creating-and-parsing-prompts.md",
+        "design-principles.md",
+        "important-constraints.md"
+      ]
+    },
+    "libb": {
+      "path": "libb",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1772460750153,
+      "keyFiles": [
+        "__init__.py",
+        "model.py"
+      ]
+    },
+    "user_side": {
+      "path": "user_side",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1772460750154,
+      "keyFiles": [
+        "backtesting_workflow.py",
+        "workflow.py"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "user_side/workflow.py",
+      "accessCount": 7,
+      "lastAccessed": 1772564039969,
+      "type": "file"
+    },
+    {
+      "path": "user_side/prompt_orchestration/prompt_models.py",
+      "accessCount": 4,
+      "lastAccessed": 1772547026016,
+      "type": "file"
+    },
+    {
+      "path": "requirements.txt",
+      "accessCount": 3,
+      "lastAccessed": 1772546995295,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "accessCount": 2,
+      "lastAccessed": 1772540428217,
+      "type": "file"
+    },
+    {
+      "path": "libb/model.py",
+      "accessCount": 2,
+      "lastAccessed": 1772541082767,
+      "type": "file"
+    },
+    {
+      "path": "libb/other/parse.py",
+      "accessCount": 2,
+      "lastAccessed": 1772541083118,
+      "type": "file"
+    },
+    {
+      "path": "libb/other/types_file.py",
+      "accessCount": 2,
+      "lastAccessed": 1772541083218,
+      "type": "file"
+    },
+    {
+      "path": "libb/core/processing.py",
+      "accessCount": 2,
+      "lastAccessed": 1772541088454,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_disk_io.py",
+      "accessCount": 2,
+      "lastAccessed": 1772541932827,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_execution.py",
+      "accessCount": 2,
+      "lastAccessed": 1772541937716,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_model.py",
+      "accessCount": 2,
+      "lastAccessed": 1772541944134,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1772460770096,
+      "type": "file"
+    },
+    {
+      "path": "pyproject.toml",
+      "accessCount": 1,
+      "lastAccessed": 1772460770339,
+      "type": "file"
+    },
+    {
+      "path": "docs/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1772460774673,
+      "type": "file"
+    },
+    {
+      "path": "libb/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1772460775070,
+      "type": "file"
+    },
+    {
+      "path": "docs/workflow.md",
+      "accessCount": 1,
+      "lastAccessed": 1772460780185,
+      "type": "file"
+    },
+    {
+      "path": "docs/design-principles.md",
+      "accessCount": 1,
+      "lastAccessed": 1772460780457,
+      "type": "file"
+    },
+    {
+      "path": "docs/important-constraints.md",
+      "accessCount": 1,
+      "lastAccessed": 1772460781086,
+      "type": "file"
+    },
+    {
+      "path": "docs/capabilities/metrics.md",
+      "accessCount": 1,
+      "lastAccessed": 1772460787873,
+      "type": "file"
+    },
+    {
+      "path": "libb/core/reading_disk.py",
+      "accessCount": 1,
+      "lastAccessed": 1772541086705,
+      "type": "file"
+    },
+    {
+      "path": "libb/core/writing_disk.py",
+      "accessCount": 1,
+      "lastAccessed": 1772541087113,
+      "type": "file"
+    },
+    {
+      "path": "libb/execution/utils.py",
+      "accessCount": 1,
+      "lastAccessed": 1772541087553,
+      "type": "file"
+    },
+    {
+      "path": "libb/metrics/sentiment_metrics.py",
+      "accessCount": 1,
+      "lastAccessed": 1772541088428,
+      "type": "file"
+    },
+    {
+      "path": "libb/execution/process_order.py",
+      "accessCount": 1,
+      "lastAccessed": 1772541092214,
+      "type": "file"
+    },
+    {
+      "path": "libb/execution/buy_logic.py",
+      "accessCount": 1,
+      "lastAccessed": 1772541092595,
+      "type": "file"
+    },
+    {
+      "path": "libb/execution/sell_logic.py",
+      "accessCount": 1,
+      "lastAccessed": 1772541092893,
+      "type": "file"
+    },
+    {
+      "path": "libb/execution/portfolio_editing.py",
+      "accessCount": 1,
+      "lastAccessed": 1772541110505,
+      "type": "file"
+    },
+    {
+      "path": "libb/execution/get_market_data.py",
+      "accessCount": 1,
+      "lastAccessed": 1772541115544,
+      "type": "file"
+    },
+    {
+      "path": "tests/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1772541745242,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_parse.py",
+      "accessCount": 1,
+      "lastAccessed": 1772541751577,
+      "type": "file"
+    },
+    {
+      "path": "dashboard.py",
+      "accessCount": 1,
+      "lastAccessed": 1772564241297,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

@@ -1,0 +1,8 @@
+numpy==2.3.2
+pandas==2.2.2
+yfinance==0.2.65
+matplotlib==3.8.4
+openai>=1.0.0
+anthropic>=0.40.0
+pysentiment2==0.1.1
+pandas_market_calendars==5.2.3
