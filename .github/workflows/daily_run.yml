@@ -1,0 +1,43 @@
+name: Daily Workflow
+
+on:
+  schedule:
+    # Runs Mon–Fri at 4:30 PM ET (21:30 UTC, winter / 20:30 UTC, summer)
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:  # allow manual trigger from GitHub UI
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # needed to commit results back
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e .
+
+      - name: Run workflow
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m user_side.workflow
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add user_side/runs/
+          git diff --cached --quiet || git commit -m "chore: run $(date -u '+%Y-%m-%d')"
+          git push
