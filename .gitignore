@@ -7,9 +7,6 @@ dist/
 build/
 .eggs/
 
-# Run data (local only — contains portfolio state and LLM outputs)
-user_side/runs/
-
 # Streamlit cache
 .streamlit/
 

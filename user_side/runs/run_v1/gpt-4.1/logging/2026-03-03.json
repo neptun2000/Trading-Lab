@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-03",
+  "weekday": "Tuesday",
+  "started_at": "2026-03-03 18:53:31.584156+00:00",
+  "finished_at": "2026-03-03 18:53:31.823118+00:00",
+  "nyse_open_on_date": true,
+  "created_after_close": false,
+  "eligible_for_execution": false,
+  "processing_status": "SUCCESS",
+  "orders_processed": 0,
+  "orders_failed": 0,
+  "orders_skipped": 0,
+  "portfolio_value": 10000.0,
+  "error": "none"
+}

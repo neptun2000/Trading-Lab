@@ -1,0 +1,68 @@
+<DAILY_ANALYSIS>
+**US News Assessment:**
+Multiple significant headlines are present today (2026-03-03):
+1. Gold tumbled ~4% amid a broader market sell-off as the dollar rose.
+2. Middle East conflict is escalating — US and Israeli attacks on Iran, Israeli airstrikes on Lebanon — causing broad risk-off sentiment.
+3. US stock futures (ES, NQ, YM) are falling Tuesday morning.
+4. Oil prices spiked due to geopolitical tensions, raising inflation concerns.
+5. February saw monthly declines in stocks; March seasonality is uncertain.
+
+**Environment Summary:**
+- Risk-off: equities under pressure, geopolitical escalation, dollar strengthening.
+- Gold selling off (unusual in risk-off; likely dollar-driven or forced liquidation).
+- Oil spiking — energy sector could be a relative outperformer.
+- Broad market weakness with potential for continued volatility.
+
+**Portfolio State:**
+- 0 active positions, $10,000 cash.
+- Must initiate at least one position to satisfy the "at least 1 ticker" requirement.
+- No prior trades, no stop-losses to check.
+
+**Risk Review & Decision Rationale:**
+Given the risk-off environment, I want to be conservative. However, I must deploy capital into at least one position. The key considerations:
+- Equities are under pressure → avoid aggressive equity bets.
+- Oil is spiking → energy sector (e.g., XLE or an oil major) could benefit from the Iran/Middle East conflict premium.
+- Gold is selling off → avoid GLD/gold positions today.
+- A defensive, liquid, and conflict-benefitting position makes the most sense.
+
+**Selected Asset: XOM (Exxon Mobil)**
+- XOM is a large-cap, highly liquid oil major that directly benefits from oil price spikes driven by Middle East conflict.
+- It provides natural inflation hedging and energy exposure.
+- In prior geopolitical shocks, oil and energy equities have held up or risen initially.
+- Conservative sizing: ~$2,500 (~25% of portfolio) to maintain cash buffer for future opportunities or market deterioration.
+
+**Pricing Discipline:**
+- XOM last close approximate: ~$115 (based on known trading range; I'll use a limit price within 10% of reasonable last close).
+- I'll set a limit buy at $116.00 — slightly above mid-market to allow execution in a potentially volatile open, but not chasing aggressively.
+- Stop-loss at $104.40 (~10% below limit price) to protect against sharp downside.
+
+**Sizing:**
+- $2,500 / $116.00 ≈ 21 shares → ~$2,436 deployed, keeping ~$7,564 in cash (75%+ cash reserve — very conservative given the uncertain environment).
+- Concentration: 21 shares × $116 = $2,436 / $10,000 = ~24.4% — well below the 60% concentration limit.
+
+**Conclusion:**
+Initiate a small, conservative position in XOM to satisfy portfolio requirements, benefit from oil price spike due to Middle East escalation, while preserving significant cash for future deployment as the situation clarifies.
+</DAILY_ANALYSIS>
+
+<ORDERS_JSON>
+{
+  "orders": [
+    {
+      "action": "b",
+      "ticker": "XOM",
+      "shares": 21,
+      "order_type": "LIMIT",
+      "limit_price": 116.00,
+      "time_in_force": "DAY",
+      "date": "2026-03-04",
+      "stop_loss": 104.40,
+      "rationale": "Initiating conservative position in Exxon Mobil to satisfy minimum portfolio holding requirement. Oil spiking due to Middle East escalation (Iran/Lebanon conflict) directly benefits large-cap oil majors. 25% allocation preserves 75% cash buffer in risk-off environment. Limit price within 10% of last known close. Stop-loss at ~10% below entry.",
+      "confidence": 0.62
+    }
+  ]
+}
+</ORDERS_JSON>
+
+<CONFIDENCE_LVL>
+0.52
+</CONFIDENCE_LVL>
